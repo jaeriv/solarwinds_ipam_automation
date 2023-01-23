@@ -8,7 +8,7 @@ password = ""
 server = ""
 ip_address = "x.x.x.x"
 
-def change_status():
+def change_status(ip_address):
     """
     Change status of IP in SolarWinds IPAM
     1 = Used
@@ -25,4 +25,4 @@ def change_status():
     print(results)
     return results
 
-# change_status()
+# change_status(ip_address=ip_address)
